@@ -1,0 +1,46 @@
+[[language]]
+name = "python"
+language-servers = ["pyright"]
+
+[language.formatter]
+command = "black"
+args = [
+  "-",
+  "--quiet",
+  "--line-length=88"
+]
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+
+
+[[language]]
+name = "c"
+language-servers = ["clangd"]
+injection-regex = "c"
+file-types = ["c", "h"]
+indent = { tab-width = 4, unit = "    " }
+
+[language.formatter]
+command = "clang-format"
+
+[language-server.clangd]
+command = "clangd"
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server"]
+file-types = ["ts", "js", "jsx", "tsx"]
+indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server"]
+indent = {tab-width = 4, unit = "    "}
+
+[language-server.vscode-html-language-server]
+command = "vscode-html-language-server"
+args = ["--stdio"]
+
+

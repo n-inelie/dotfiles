@@ -1,0 +1,46 @@
+# theme="everforest_dark"
+# theme = "amberwood"
+theme="kanagawa"
+# theme = "ferra"
+
+[editor]
+line-number="relative"
+mouse=false
+shell=["fish"]
+cursorline=true
+auto-format=true
+color-modes=true
+
+[editor.cursor-shape]
+insert="bar"
+normal="block"
+select="block"
+
+[editor.file-picker]
+hidden=false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-inlay-hints = false
+
+[editor.whitespace]
+render = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "·"
+tabpad = "·"
+newline = " "
+
+[editor.indent-guides]
+render = true
+character = "┊"
