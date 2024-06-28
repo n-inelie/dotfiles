@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export AUTOGEN_CMAKE_ONLY:1
 SETUVAR --export CC:clang
-SETUVAR --export --path CPATH:/home/ninelie/examples/c/wind/include/
+SETUVAR --export --path CPATH:/home/ninelie/examples/c/standalones/ncurses\x2dplayground/include
 SETUVAR --export CXX:clang\x2b\x2b
 SETUVAR --export GIACHE_ROOT:/home/ninelie/collaborative\x2dprojects/CarloWood/machine\x2dlearning/gitache
 SETUVAR --export GOBIN:/home/ninelie/go/bin/
@@ -41,4 +41,4 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/ninelie/go/bin\x1e/home/ninelie/examples/c/wind/tree\x2dsitter\x2dwind/node_modules/\x2ebin\x1e/opt/jdk\x2d22\x2e0\x2e1/bin\x1e/opt/RustRover\x2d2024\x2e1\x2e2/bin\x1e/home/ninelie/\x2econfig/eww/scripts\x1e/home/ninelie/bin\x1e/home/ninelie/\x2elocal/bin\x1e/home/ninelie/\x2ecargo/bin\x1e/home/ninelie/\x2ebun/bin\x1e/opt/cuda/bin
+SETUVAR fish_user_paths:/home/linuxbrew/\x2elinuxbrew/bin\x1e/home/ninelie/go/bin\x1e/home/ninelie/examples/c/wind/tree\x2dsitter\x2dwind/node_modules/\x2ebin\x1e/opt/jdk\x2d22\x2e0\x2e1/bin\x1e/opt/RustRover\x2d2024\x2e1\x2e2/bin\x1e/home/ninelie/\x2econfig/eww/scripts\x1e/home/ninelie/bin\x1e/home/ninelie/\x2elocal/bin\x1e/home/ninelie/\x2ecargo/bin\x1e/home/ninelie/\x2ebun/bin\x1e/opt/cuda/bin

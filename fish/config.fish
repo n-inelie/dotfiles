@@ -6,7 +6,9 @@ end
 
 set -Ux CC clang
 set -Ux CXX clang++
-set -Ux CPATH $HOME/examples/c/wind/include/
+
+set -Ux CPATH $HOME/examples/c/standalones/ncurses-playground/include
+
 set -Ux GOPATH $HOME/go
 set -Ux GOROOT /usr/lib/go
 set -Ux GOBIN $HOME/go/bin/

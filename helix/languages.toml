@@ -44,3 +44,11 @@ command = "vscode-html-language-server"
 args = ["--stdio"]
 
 
+[[language]]
+name = "swift"
+indent = { tab-width = 4, unit = "    " }
+
+[language.formatter]
+command = "swift-format"
+# args = ["--configuration", "$HOME/.swift-format"]
+args = ["--configuration", "/home/ninelie/.swift-format"]
