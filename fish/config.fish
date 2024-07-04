@@ -7,14 +7,12 @@ end
 set -Ux CC clang
 set -Ux CXX clang++
 
-set -Ux CPATH $HOME/examples/c/standalones/ncurses-playground/include
-
-set -Ux GOPATH $HOME/go
-set -Ux GOROOT /usr/lib/go
-set -Ux GOBIN $HOME/go/bin/
-
 alias gcsd "git clone --depth=1"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
