@@ -1,8 +1,11 @@
 # theme="everforest_dark"
 # theme = "amberwood"
 # theme="kanagawa"
-theme = "ferra"
+# theme = "ferra"
 # theme = "biscuit-dark"
+# theme = "sonokai"
+# theme = "zed_onelight"
+theme = "tokyonight_moon"
 
 [editor]
 line-number="relative"
