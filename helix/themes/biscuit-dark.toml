@@ -2,7 +2,7 @@
 # The theme uses the dark-decay pallete from : github.com/decaycs
 
 "attribute" = "fg0"
-"keyword" = { fg = "purple1" }
+"keyword" = { fg = "red1" }
 "keyword.directive" = "blue0"
 "namespace" = "fg0"
 "punctuation" = "fg0"
@@ -52,8 +52,8 @@
 "ui.help" = { fg = "fg1" }
 "ui.text" = { fg = "fg1" }
 "ui.text.focus" = { fg = "fg1" }
-"ui.selection" = { bg = "bg2" }
-"ui.selection.primary" = { bg = "bg3" }
+"ui.selection" = { bg = "#000000" }
+"ui.selection.primary" = { bg = "#000000" }
 "ui.cursor.primary" = { bg = "fg4", fg = "bg1" }
 "ui.cursor.match" = { bg = "bg3" }
 "ui.menu" = { fg = "fg1", bg = "bg1" }
@@ -105,3 +105,4 @@ aqua0 = "#7eb5ed"
 aqua1 = "#87c3ff"
 orange0 = "#e37b3e"
 orange1 = "#f78644"
+pink1 = "#ff77bb"

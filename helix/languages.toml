@@ -60,3 +60,13 @@ indent = { tab-width = 4, unit = "    " }
 [language.formatter]
 command = "stylua"
 
+
+# [[language]]
+# name = "fennel"
+# indent = { tab-width = 4, unit = "    " }
+# language-servers = ["fennel-ls"]
+# file-types = ["fnl"]
+
+# [language-server.fennel-ls]
+# command = "fennel-ls"
+

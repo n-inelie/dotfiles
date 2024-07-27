@@ -3,7 +3,7 @@
 #
 
 ctrl + m
-  $(/home/ninelie/.config/eww/scripts/EwwWelcome)
+  eww_open
 
 super + shift + s
   flameshot gui
@@ -14,7 +14,7 @@ super + Return
 
 # program launcher
 super + @space
-   rofi -show drun	
+   glimpse
 
 # make sxhkd reload its configuration files:
 super + Escape

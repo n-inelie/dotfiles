@@ -6,3 +6,11 @@ opt.relativenumber = true
 opt.tabstop = 4
 opt.expandtab = true
 opt.shiftwidth = 4
+
+opt.background ='light'
+
+opt.listchars = {
+    tab = '··',
+    space = '·',
+}
+

@@ -3,15 +3,17 @@
 # theme="kanagawa"
 # theme = "ferra"
 # theme = "biscuit-dark"
+# theme = "gruvbox_material_dark_hard"
 # theme = "sonokai"
 # theme = "zed_onelight"
-theme = "tokyonight_moon"
+# theme = "tokyonight_moon"
+theme = "base16_transparent"
 
 [editor]
 line-number="relative"
 mouse=false
 shell=["fish"]
-cursorline=true
+cursorline=false
 auto-format=true
 color-modes=true
 
@@ -33,6 +35,7 @@ mode.select = "SELECT"
 
 [editor.lsp]
 display-inlay-hints = false
+display-messages = true
 
 [editor.whitespace]
 render = "all"
